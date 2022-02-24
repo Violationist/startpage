@@ -16,8 +16,8 @@
       }
 
       form {
-        margin-top: 10%;
-        margin-bottom: 40%;
+        margin-top: 2%;
+        margin-bottom: 5%;
         background-color: #1F8277;
         width: 100%;
         height: 50px;
@@ -49,7 +49,7 @@
         padding: 10px;
       }
       h1 {
-          margin-top: 20%;
+          margin-top: 10%;
           font-size: 7.2rem;
           color: #fff;
           text-align: center;
@@ -58,6 +58,13 @@
           font-size: 2rem;
           color: #fff;
           text-align: center;
+      }
+      div.beta-text {
+          font-size: 4px;
+          font-family: 'Poppins', sans-serif;
+      }
+      div.logo-text {
+          font-size: 32px;
       }
       button {
         all: unset;
@@ -70,8 +77,8 @@
       }
     </style>
   </head>
-  <body>
-<h1><b>違規搜尋</b><p style="font-family: 'Poppins', sans-serif; font-size:14px;">BETA</p></h1>
+  <body>    
+    <div class = logo-text><b>違規搜尋</b></div><div class = beta-test><b>BETA</b></div>
     <centre>
         <form role="search" id="form">
             <input type="search" id="query" name="q" placeholder="搜尋一些不該搜尋的東西" aria-label="Search through site content">
@@ -94,11 +101,7 @@
 
         f.addEventListener('submit', submitted);
     </script>
-    <h2><b>最新影片</b></h2>
-    <br/>
     <rssapp-feed id="tt3Chdo5gUTxxplp"></rssapp-feed><script src="https://widget.rss.app/v1/feed.js" type="text/javascript" async></script>
-    <h2><b>國際新聞</b></h2>
-    <br/>
     <rssapp-wall id="z2QLYGr4hmTwkEXi"></rssapp-wall><script src="https://widget.rss.app/v1/wall.js" type="text/javascript" async></script>
     </body>
 </html>
